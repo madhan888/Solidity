@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_n",
+						"type": "int256"
+					}
+				],
+				"name": "getAbs",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "result",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "Perelyn https://github.com/Perelyn-sama",
+			"details": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-negative-number-topic/cc-6th-absolute-value/v/absolute-value-of-integers",
+			"kind": "dev",
+			"methods": {},
+			"title": "Get the absolute value of an integer.",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"getAbs(int256)": {
+					"notice": "Pass in a number and get it's absolute value"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_Storage.sol": "Abs"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_Storage.sol": {
+			"keccak256": "0xd7d5cd37988b372964532497048e14774296d00604e42868468eb5f8372c2168",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9f5a8b4d10bb68ce80807a95562875c208cc6c5cb706a2a962f4619e2164402",
+				"dweb:/ipfs/QmWn4m114kQVE4pzDTKezFW9oomX53vWvhRWzzphSNzvxt"
+			]
+		}
+	},
+	"version": 1
+}
